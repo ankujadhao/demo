@@ -10,7 +10,7 @@ import com.example.demo.service.AppoimentService;
 @RestController
 public class AppoimentCOntroller {
 
-	@PostMapping("hospital/getaddAppoiment")
+	@PostMapping("hospital/Appoiment")
 	String addAppoiment(@RequestBody Appoiment a) {
 
 		AppoimentService as = new AppoimentService();
