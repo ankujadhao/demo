@@ -10,7 +10,7 @@ import com.example.demo.service.DoctorService;
 @RestController
 public class DoctorController {
 
-	@PostMapping("hospital/addDoctor")
+	@PostMapping("hospital/addDoctorones")
 	String addDoctorOnes(@RequestBody Doctor d)
 	{
 	DoctorService ds= new DoctorService();
