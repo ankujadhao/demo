@@ -11,7 +11,7 @@ import com.example.demo.service.DoctorService;
 public class DoctorController {
 
 	@PostMapping("hospital/addDoctor")
-	String addDoctor(@RequestBody Doctor d)
+	String addDoctorOnes(@RequestBody Doctor d)
 	{
 	DoctorService ds= new DoctorService();
 String msg=	ds.saveDoctorInDb(d);
